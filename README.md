@@ -1,6 +1,7 @@
 # 📚 Online Book Library
 
-[![Django](https://img.shields.io/badge/Django-5.0-green?logo=django)](https://www.djangoproject.com/)    [![SQLite](https://img.shields.io/badge/SQLite-3-blue?logo=sqlite&logoColor=white)](https://www.sqlite.org/)    [![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)   [![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)  
+[![Django](https://img.shields.io/badge/Django-5.0-green?logo=django)](https://www.djangoproject.com/)    [![SQLite](https://img.shields.io/badge/SQLite-3-blue?logo=sqlite&logoColor=white)](https://www.sqlite.org/)    [![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)    [![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)      [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)     [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org/)
+
 
 An online library management system built with **Django 5**.  
 This web app allows users to **register, browse, borrow, and manage books**, while **admins** can handle users and content from a simple dashboard.
@@ -77,9 +78,9 @@ Web-Project/
 
 ## 🛠️ Tech Stack
 
-- [Django 5](https://www.djangoproject.com/) – Web Framework  
-- [SQLite](https://www.sqlite.org/) – Default Database
-- HTML , CSS 
+- **Backend:** [Python 3.12](https://www.python.org/), [Django 5](https://www.djangoproject.com/) – Web Framework  
+- **Database:** [SQLite 3](https://www.sqlite.org/) – Default Lightweight Database  
+- **Frontend:** [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS), [JavaScript ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
 
 ---
 
