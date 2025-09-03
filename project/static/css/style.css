@@ -27,7 +27,7 @@ body {
   background-origin: top;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
 }
 
@@ -146,7 +146,6 @@ ul li {
 .book-name {
   font-weight: bold;
   font-size: 26px;
-  
 }
 .book-name::after {
   content: "";

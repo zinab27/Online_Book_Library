@@ -204,7 +204,7 @@ def update_book_view(request):
     return JsonResponse({'message': False})
     
     
-def admin(request):
+def myadmin(request):
     books = Book.objects.all()
     booksid=Book.objects.all().order_by('bookId')
     bookstitle=Book.objects.all().order_by('title')

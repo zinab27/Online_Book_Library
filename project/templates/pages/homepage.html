@@ -25,7 +25,7 @@
                 <li><a href=" {%url 'homepage'%}">Home</a></li>
 
                 {% if user.is_authenticated and user.is_staff %}
-                <li id="admin"><a href="{% url 'admin' %}">Admin Panel</a></li>
+                <li id="admin"><a href="{% url 'myadmin' %}">Admin Panel</a></li>
 
                 <li id="logout">
                     <form action="{% url 'logout' %}" method="post" style="display: inline;">

@@ -20,7 +20,7 @@
                 </li>
                 <li><a href="{% url 'homepage' %}">Home</a></li>
                 {%if user.is_authenticated and user.is_staff%}
-                <li><a href="{% url 'admin' %}">Admin Panel</a></li>
+                <li><a href="{% url 'myadmin' %}">Admin Panel</a></li>
                 {%elif user.is_authenticated and not user.is_staff%}
                 <li><a href="{% url 'borrow' %}">Browse Books</a></li>
                 <li><a href="{% url 'borrowed-books' %}">My Books</a></li>
